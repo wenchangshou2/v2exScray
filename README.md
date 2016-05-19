@@ -3,56 +3,7 @@
 这个项目的作用是将v2ex的所有的文章全部爬取下来
 
 ## 文件的目录
-.
-├── README.md
-├── scrapy.cfg
-├── v2ex
-│   ├── __init__.py
-│   ├── __init__.pyc
-
-│   ├── items.py
-
-│   ├── items.pyc
-
-│   ├── misc
-
-│   │   ├── __init__.py
-
-│   │   ├── __init__.pyc
-
-│   │   ├── log.py
-
-│   │   └── log.pyc
-
-│   ├── pipelines.py
-
-│   ├── pipelines.pyc
-
-│   ├── rotate_useragent.py
-
-│   ├── rotate_useragent.pyc
-
-│   ├── settings.py
-
-│   ├── settings.pyc
-
-│   ├── spiders
-
-│   │   ├── __init__.py
-
-│   │   ├── __init__.pyc
-
-│   │   ├── v2ex_spider.py
-
-│   │   └── v2ex_spider.pyc
-
-│   └── v2ex.json
-
-└── v2ex.json
-
-
-3 directories, 22 files
-
+![屏幕快照 2016-05-19 下午3.57.30](http://o7ez1faxc.bkt.clouddn.com/2016-05-19-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-05-19%20%E4%B8%8B%E5%8D%883.57.30.png)
 
 ##解决403的错误
 在抓取的过程当中返回的都是403的错误，网站采用了防爬技术anti-web-crawling technique（Amazon所用),后来通过通过队列的形式随机更换user_aget来发送请求来解决这个问题
