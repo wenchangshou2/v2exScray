@@ -5,30 +5,55 @@
 ## 文件的目录
 .
 ├── README.md
+
 ├── scrapy.cfg
+
 ├── v2ex
+
 │   ├── __init__.py
+
 │   ├── __init__.pyc
+
 │   ├── items.py
+
 │   ├── items.pyc
+
 │   ├── misc
+
 │   │   ├── __init__.py
+
 │   │   ├── __init__.pyc
+
 │   │   ├── log.py
+
 │   │   └── log.pyc
+
 │   ├── pipelines.py
+
 │   ├── pipelines.pyc
+
 │   ├── rotate_useragent.py
+
 │   ├── rotate_useragent.pyc
+
 │   ├── settings.py
+
 │   ├── settings.pyc
+
 │   ├── spiders
+
 │   │   ├── __init__.py
+
 │   │   ├── __init__.pyc
+
 │   │   ├── v2ex_spider.py
+
 │   │   └── v2ex_spider.pyc
+
 │   └── v2ex.json
+
 └── v2ex.json
+
 
 3 directories, 22 files
 
