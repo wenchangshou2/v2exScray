@@ -5,13 +5,9 @@
 ## 文件的目录
 .
 ├── README.md
-
 ├── scrapy.cfg
-
 ├── v2ex
-
 │   ├── __init__.py
-
 │   ├── __init__.pyc
 
 │   ├── items.py
