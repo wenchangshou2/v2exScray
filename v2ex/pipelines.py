@@ -11,10 +11,10 @@ import codecs
 class JsonWithEncodingTencentPipeline(object):
 
     def __init__(self):
-        self.file = codecs.open('v2ex.json', 'w', encoding='utf-8')
+        self.file = codecs.open('v2ex.json', 'w', encoding='utf-8')#设置encoding来防止乱码
 
     def process_item(self, item, spider):
-        line = json.dumps(dict(item), ensure_ascii=False) + "\n"
+        line = json.dumps(dict(item), ensure_ascii=False) + "\n"#ensure_ascii为true的话输出的是一个ascii字符，想输出中文的话需要将其设置为False
         self.file.write(line)
         return item
 
